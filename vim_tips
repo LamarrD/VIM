@@ -1,0 +1,22 @@
+Quick Tips
+    '~'             Changes case of letter under cursor
+    't<var>'        Moves cursor TIL next instance of var
+    'dta'           Deletes til next instace of a 
+    'dfa'           Same as till but deletes letter as well
+    'd$'            Deletes until end of line
+    
+
+Multiline Commenting
+   # ctrl-v 
+   # *go down to select all lines* 
+   # 'I' 
+   # '#' 
+   # 'esc' 
+
+
+Macros (Real Powerful)
+    Create a macro by:      'q'         <letter_to_save_macro> *Do all commmands you want* <letter_to_save_macro>
+    Activate macro:         '@'         <letter_to_save_macro>
+    Sample Create Usage:    'qq 5ddj q' # Creates macro that deletes 5 lines and moves down a line  
+    Sample Use Usage:       '@qq'       # Activates macro, could do 20@qq to execute macro 20 times
+
