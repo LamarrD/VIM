@@ -4,6 +4,19 @@ Quick Tips
     'dta'           Deletes til next instace of a 
     'dfa'           Same as till but deletes letter as well
     'd$'            Deletes until end of line
+    'G'             Go to EOF
+    ':n'            Go to line n. 0 for top of the file
+    '$'             Go to EOL
+    '^'             Go to beginning of line
+    'n'             find next instance of search pattern going down
+    'N'             find previous instance of search pattern going up
+    'r'             replace character
+    'R'             replace mode until you hit Esc
+    'yy'            yank line into buffer
+    'nyy'           yank n lines into buffer
+    'p'             paste buffer into below current line
+    'P'             paste buffer above current line
+    'np' or 'nP'    paste buffer n times
     
 
 Multiline Commenting
